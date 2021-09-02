@@ -1,0 +1,19 @@
+﻿using MemberRegistiration.Core.Entities;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MemberRegistration.Entites.Concrete
+{
+    public class Member: IEntity
+    {
+        public int id { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public DateTime DateOfBirth { get; set; }
+        public string TcNo { get; set; }
+        public string Email { get; set; }
+    }
+}
